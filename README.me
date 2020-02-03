@@ -1,0 +1,6 @@
+to build for wiscope:
+	- source the environment variables in /opt/poky/ into the shell
+	- cd to build dir
+	- run cmd: cmake ../ -DWITH_TLS=OFF -DWITH_WEBSOCKETS=OFF -DWITH_THREADING=OFF
+	- run cmd; make -j90000
+	
